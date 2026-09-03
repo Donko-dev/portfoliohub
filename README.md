@@ -63,4 +63,4 @@ Die Seite wurde gezielt für die Vorlage bei Ausbildungsbetrieben, dem Auslandsp
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassane%20Donko-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav)
 [![X](https://img.shields.io/badge/X-@Richtoken3bsc-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Richtoken3bsc)
 
-</p>
+</div>
