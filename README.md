@@ -1,12 +1,8 @@
 <p align="center">
   <img src="donko.png" alt="EMPIRE CODE Logo" width="140"/><br><br>
-  <b>PORTFOLIO HUB</b><br>
+  <b> PORTFOLIO HUB</b><br>
 
-<p align="center">
-  <a href="https://wa.me/2290196809106"><img src="https://img.shields.io/badge/WhatsApp-+229%2001%2096%2080%2091%2006-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-  <a href="mailto:empiredonko@gmail.com"><img src="https://img.shields.io/badge/Email-empiredonko@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://tiktok.com/@donkodeutsch"><img src="https://img.shields.io/badge/TikTok-@donkodeutsch-000000?style=for-the-badge&logo=tiktok&logoColor=white"/></a>
-  <a href="https://empirecode.mychariow.co/"><img src="https://img.shields.io/badge/Boutique-EMPIRE%20CODE%20STORE-FF9900?style=for-the-badge&logo=shopify&logoColor=white"/></a>
+
 </p>
 
 ---
@@ -47,14 +43,18 @@ Die Seite wurde gezielt für die Vorlage bei Ausbildungsbetrieben, dem Auslandsp
 
 ---
 
-<p align="center">
-  <img src="donko.png" alt="EMPIRE CODE Footer Logo" width="100"/>
-  <br><br>
-  <b>Bereitgestellt von EMPIRE CODE</b><br>
-  <sub>Alle Rechte vorbehalten</sub>
-  <br><br>
-  <i>Freiberuflicher IT-Entwickler — Spezialist für Lager- und Logistikmanagementsysteme · Blockchain · Krypto · Web3 · KI-Experte</i>
-  <br><br>
+<div align="center">
+
+<img src="donko.png" alt="EMPIRE CODE Footer Logo" width="100"/>
+
+<br><br>
+
+**Bereitgestellt von EMPIRE CODE**
+<sub>Alle Rechte vorbehalten</sub>
+
+*Freiberuflicher IT-Entwickler — Spezialist für Lager- und Logistikmanagementsysteme · Blockchain · Krypto · Web3 · KI-Experte*
+
+<br>
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+229%2001%2096%2080%2091%2006-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2290196809106)
 [![Email](https://img.shields.io/badge/Email-empiredonko@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:empiredonko@gmail.com)
