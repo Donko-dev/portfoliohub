@@ -128,17 +128,20 @@
   .letter-card .sign { margin-top: 22px; font-style: italic; color: var(--muted); }
 
   .portrait-wrap { display:flex; justify-content:center; margin-top: 28px; }
-  .portrait-fallback, .portrait-img {
-    width: 132px; height: 132px; border-radius: 50%;
-    object-fit: cover;
-  }
-  .portrait-fallback {
-    display:flex; align-items:center; justify-content:center;
-    background: var(--navy); color: var(--de-gold);
-    font-family: Georgia, serif; font-size: 40px; font-weight: 700;
+  .portrait-frame {
+    position: relative; width: 230px; height: 300px;
+    border-radius: 14px; overflow: hidden;
     border: 3px solid var(--gold-dark);
+    box-shadow: 0 4px 14px rgba(16,33,59,0.18);
   }
-  .portrait-img { border: 3px solid var(--gold-dark); }
+  .portrait-img { width: 100%; height: 100%; object-fit: cover; display:block; }
+  .portrait-fallback {
+    width: 100%; height: 100%;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap: 10px;
+    background: var(--navy); color: var(--de-gold);
+  }
+  .portrait-fallback svg { width: 52px; height: 52px; opacity:.85; }
+  .portrait-fallback span { font-family: Georgia, serif; font-size: 13px; font-style: italic; letter-spacing: .3px; }
 
   /* ---------- Cards ---------- */
   .section-title {
@@ -217,17 +220,22 @@
       <div class="role">EMPIRE CODE · Bewerbungsprofil</div>
 
       <p>Sehr geehrte Damen und Herren,</p>
-      <p>mein Name ist Hassane Donko. Ich bereite mich mit voller Überzeugung auf eine Ausbildung zur Fachkraft für Lagerlogistik in Deutschland vor — sprachlich, fachlich und menschlich.</p>
-      <p>Neben meinem intensiven Deutschstudium habe ich aus eigenem Antrieb mehrere digitale Anwendungen entwickelt, die meine praktischen Fähigkeiten in Logistik, Systemarchitektur und künstlicher Intelligenz unter Beweis stellen. Jedes dieser Projekte ist während meiner Vorbereitungszeit entstanden — ohne Auftrag, ausschließlich mit dem Ziel, mich bestmöglich auf die Anforderungen der deutschen Lagerlogistik vorzubereiten.</p>
-      <p>Ich bin diszipliniert, lernbereit und ausdauernd. Ich löse Probleme selbstständig, arbeite strukturiert und bringe eine hohe Eigenmotivation mit. Die folgenden Anwendungen sind der konkrete Nachweis dafür — sie sprechen für sich selbst.</p>
+      <p>mein Name ist Hassane Donko. Ich bereite mich mit Entschlossenheit und Ausdauer auf eine Ausbildung zur Fachkraft für Lagerlogistik in Deutschland vor — sprachlich, fachlich und menschlich.</p>
+      <p>Den Schritt, meine Zukunft in einem neuen Land und in einer neuen Sprache aufzubauen, gehe ich bewusst und mit vollem Einsatz. Neben meinem intensiven Deutschstudium habe ich aus eigenem Antrieb mehrere digitale Anwendungen entwickelt, die meine praktischen Fähigkeiten in Logistik, Systemarchitektur und künstlicher Intelligenz unter Beweis stellen. Jedes dieser Projekte ist während meiner Vorbereitungszeit entstanden — ohne Auftrag, ausschließlich mit dem Ziel, mir die bestmöglichen Voraussetzungen für die deutsche Lagerlogistik zu erarbeiten.</p>
+      <p>Ich bin diszipliniert, lösungsorientiert und lasse mich von Rückschlägen nicht aufhalten. Ich arbeite strukturiert, übernehme Verantwortung und bringe eine hohe Arbeitsbereitschaft mit. Die folgenden Anwendungen sind der konkrete Nachweis dafür — sie sprechen für sich selbst.</p>
       <p>Ich freue mich sehr über die Gelegenheit, meine Motivation, meine Fähigkeiten und meinen Werdegang persönlich vorzustellen.</p>
       <p class="sign">Mit freundlichen Grüßen<br/>Hassane Donko</p>
 
       <div class="portrait-wrap">
-        <div class="portrait-fallback" id="portrait-fallback">HD</div>
-        <img class="portrait-img" id="portrait-img" src="hassane.png" alt="Hassane Donko" style="display:none"
-             onload="this.style.display='block'; document.getElementById('portrait-fallback').style.display='none';"
-             onerror="this.style.display='none';" />
+        <div class="portrait-frame">
+          <div class="portrait-fallback" id="portrait-fallback">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8.2" r="3.6"/><path d="M4.5 19.5c0-3.9 3.4-6.8 7.5-6.8s7.5 2.9 7.5 6.8"/></svg>
+            <span>Foto folgt</span>
+          </div>
+          <img class="portrait-img" id="portrait-img" src="hassane.png" alt="Hassane Donko" style="display:none"
+               onload="this.style.display='block'; document.getElementById('portrait-fallback').style.display='none';"
+               onerror="this.style.display='none';" />
+        </div>
       </div>
     </div>
   </div>
